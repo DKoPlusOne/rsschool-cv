@@ -1,1 +1,5 @@
-CV#2 created file style.css
+body font-family: 'Roboto', sans-serif;
+@font-face {
+    font-family: Roboto;
+     src: url("assets/fonts/Roboto.ttf");
+   }
