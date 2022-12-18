@@ -1,2 +1,2 @@
 # rsschool-cv
-# https://DkoPlusOne.github.io/rsschool-cv/cv
+# https://DKoPlusOne.github.io/rsschool-cv/cv
