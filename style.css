@@ -1,5 +1,19 @@
-body font-family: 'Roboto', sans-serif;
-@font-face {
-    font-family: Roboto;
-     src: url("assets/fonts/Roboto.ttf");
-   }
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  color:rgb(255, 255, 255);
+  max-width: 1400px;
+  max-height: auto;
+  background-color: cadetblue;
+  margin:10px auto;
+  padding: 10px;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+h1 {
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+ }
+
+a {
+  color:white; 
+}

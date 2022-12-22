@@ -1,62 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>cv</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="assets/favicon.ico">
+    <title>CV DKo</title>
+    
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img src="/image.jpeg" alt="my photo" height="10%" width="10%">
-    <h1>DENIS KOTOV</h1>
-    <h2>Junior front-end developer</h2>
-    <title>Document</title>
 </head>
-<body>
-    <main>
-        <ol>
-            <b><li>Contact information</li></b>
-            <p>WA: +7-931-970-66-87</p>
-            <p>E-mail: dg.kotov@gmail.com</p>
-            <b><li>About myself</li></b>
-            <p>I am a construction engineer who decided to switch into IT sphere. I have more than 15 years of experience in different construction projects and I am crazy about learning new things.</p>
-            <b><li>Skills</li></b>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Git, GitHub</p>
-            <p>AutoCAD</p>
-            <b><li>Working experience</li></b>
-            <p>I just have started my studies in IT so I don’t have proper experience as a front-end developer</p>
-            <b><li>Code example </li></b>
-            <pre> <code>
-                link rel="preconnect" href="https://fonts.gstatic.com" crossorigin
-                link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-                    meta charset="UTF-8"
-                </code></pre>     
-            <b><li>Education</li></b>   
-            <p>2022 RS School, Stage 0</p> 
-            <p>2014 International Management Institute of St. Petersburg,Russia</p>   
-            <p>2011 St. Petersburg State University of Architecture and Civil Engineering, St. Petersburg, Russia</p>   
-            <p>2010 Saimaa University of Applied Sciences, Laappeenranta, Finland</p>
-            <b><li>Languages</li></b> 
-            <p>Russian - native</p>
-            <p>English - inermediate(B1)</p>
-            <p>Finnish - elementary(A2.1)</p>  
-        </ol>
-    </main>
 
-    <footer>
-        <h2>LINKS</h2>
-<nav>
+<body>
+
+    <header class="top"> <!--FIRST PART-->
+    
+        <h1>Denis Kotov</h1>
+        <h2>Junior front-end developer</h2>
+        <img src="image.jpeg" alt="me" width="156px" height="225.5px">
+            <nav class="header_navigation">
+                <ol>
+                    <li><a href="#1.Contact information">Contact information</a></li>
+                    <li><a href="#2.About myself">About myself</a></li>
+                    <li><a href="#3.Skills">Skills</a></li>
+                    <li><a href="#4.Projects">Projects</a></li>
+                    <li><a href="#5.Code">Code</a></li>
+                    <li><a href="#6.Education">Education</a></li>
+                    <li><a href="#7.Languages">Languages</a></li>
+                </ol>
+            </nav>
+    </header>
+
+    <main class="content"> <!--MAIN PART-->
+    
+    <h3>1.Contact information</h3>
     <ul>
-        <li><a href="https://github.com/DKoPlusOne">My page in GitHub</a></li>
-        <li><a href="https://rs.school/js/">Course "JavaScript/Front-end"</a></li>
-        <li><img src="https://rs.school/images/rs_school_js.svg" alt="RS School logo" width="10%" height="10%"></img></li>
+        <li>WA: +7-931-970-66-87</li>
+        <li>E-mail:dg.kotov@gmail.com</li>
+        <li>Discord:Denis_Kotov(@DKoPlusOne)</li>
+    </ul>
+    
+    <h3>2.About myself</h3>
+    <p>I am a construction engineer who decided to switch into IT sphere. 
+       I have more than 15 years of experience in different construction projects and 
+       now I am studying at RS School (link in the end) to become a front-end developer.</p>
+
+    <h3>3.Skills</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git,GitHub</li>
+        <li>AutoCAD</li>
+    </ul>   
+
+    <h3>4.Projects</h3>
+    <ul>
+        <li><a class="CV" href="https://dkoplusone.github.io/rsschool-cv/">CV</a></li>
+    </ul>
+
+    <h3>5.Code</h3>
+    <code>
+     <pre>
+      link rel="preconnect" href="https://fonts.gstatic.com" crossorigin
+      link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+      meta charset="UTF-8"
+     </pre>
+    </code>
+
+    <h3>6.Education</h3>
+    <ul>
+        <li>2022-till now. RS School.Stage 0 "JavaScript/Front-end". On-line</li>
+        <li>2013-2014. International Management Institute of St. Petersburg, Russia</li>
+        <li>2005-2011. State University of Architecture and Civil Engineering, St. Petersburg, Russia</li>
+        <li>2009-2010. Saimaa University of Applied Sciences, Laappeenranta, Finland</li>
+    </ul>
+
+    <h3>7.Languages</h3>
+    <ul>
+        <li>Russian - native</li>
+        <li>English - inermediate(B1)</li>
+        <li>Finnish - elementary(A2.1)</li>
+    </ul>
+    </main>
+    
+    <footer> <!--LINKS-->
+       <h3>LINKS</h3>
+        <nav class="footer_nav">
+            <ul>
+                <li><a href="https://github.com/DKoPlusOne">My page in GitHub</a></li>
+                <li><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School logo" width="240px" height="96px"></a></li>
+                <li>All RIGHTS RESERVED 2022 DKoPlusOne</li>
             </ul>
-</nav>
-<span>All RIGHTS RESERVED 2022 DKoPlusOne</span>
+        </nav>
     </footer>
+
 </body>
-</html>
